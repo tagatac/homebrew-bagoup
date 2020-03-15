@@ -1,8 +1,8 @@
 class Bagoup < Formula
   desc "Mac OS Messages export"
   homepage "https://github.com/tagatac/bagoup"
-  url "https://github.com/tagatac/bagoup/archive/v1.1.2.tar.gz"
-  sha256 "ff9b1dd1681b7f81f614dcbeb1c4db699155ea5597f71e3d67e5f5fb309240a2"
+  url "https://github.com/tagatac/bagoup/archive/v1.1.3.tar.gz"
+  sha256 "1ebeeb049787a6ac1bce2336ff233ef03c51024e39927798fd3356d9a546c761"
 
   depends_on "make" => :build
   depends_on "go" => :build
