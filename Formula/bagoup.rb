@@ -14,6 +14,6 @@ class Bagoup < Formula
   end
 
   test do
-    assert_equal "Usage:\n  bagoup [OPTIONS]\n", shell_output("#{bin}/bagoup --help")
+    assert_equal "Usage:\n  bagoup [OPTIONS]\n", shell_output("#{bin}/bagoup --help | head -n 2")
   end
 end
