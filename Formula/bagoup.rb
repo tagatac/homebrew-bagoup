@@ -1,14 +1,14 @@
 class Bagoup < Formula
   desc "Mac OS Messages export"
   homepage "https://github.com/tagatac/bagoup"
-  url "https://github.com/tagatac/bagoup/archive/refs/tags/v2.0.3.tar.gz"
-  sha256 "13156e874bbc7f6d8509b896d5112858201097138f3d822c32bea98768fda203"
+  url "https://github.com/tagatac/bagoup/archive/refs/tags/v2.0.4.tar.gz"
+  sha256 "cd2902e4e21c26ba5f79736772be1093ec5020da2f3f98393456b7fe935b3f93"
 
-  bottle do
-    rebuild 1
-    root_url "https://github.com/tagatac/bagoup/releases/download/v2.0.3"
-    sha256 cellar: :any_skip_relocation, monterey: "9e240b481d39785d56811cfb126216cdb9016ac65298ee3e092dcd0773049ac3"
-  end
+  # bottle do
+  #   rebuild 1
+  #   root_url "https://github.com/tagatac/bagoup/releases/download/v2.0.4"
+  #   sha256 cellar: :any_skip_relocation, monterey: ""
+  # end
 
   depends_on "go" => :build
   depends_on "make" => :build
