@@ -4,11 +4,11 @@ class Bagoup < Formula
   url "https://github.com/tagatac/bagoup/archive/refs/tags/v2.0.4.tar.gz"
   sha256 "cd2902e4e21c26ba5f79736772be1093ec5020da2f3f98393456b7fe935b3f93"
 
-  # bottle do
-  #   rebuild 1
-  #   root_url "https://github.com/tagatac/bagoup/releases/download/v2.0.4"
-  #   sha256 cellar: :any_skip_relocation, monterey: ""
-  # end
+  bottle do
+    rebuild 1
+    root_url "https://github.com/tagatac/bagoup/releases/download/v2.0.4"
+    sha256 cellar: :any_skip_relocation, monterey: "0f79459f61dd064ccf07c1612243f1c8b684a5d0c3c7ae32edc85e29375301b0"
+  end
 
   depends_on "go" => :build
   depends_on "make" => :build
