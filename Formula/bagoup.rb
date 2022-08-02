@@ -5,9 +5,9 @@ class Bagoup < Formula
   sha256 "3623cbf1d4f92a52953f5f87ca2d5131478f803bfda293d84e09c14dd0afd4de"
 
   bottle do
-    rebuild 1
     root_url "https://github.com/tagatac/bagoup/releases/download/v2.1"
     sha256 cellar: :any_skip_relocation, arm64_monterey: "7f91c5ad7b6ad94ec415aa4e7add74e61b23a141074d409b13351219dfbaffd0"
+    sha256 cellar: :any_skip_relocation, monterey: "f9c44340a30cd84a14d9ff18324ddd3731198a1a7b534263ea680a9353c3a070"
   end
 
   depends_on "go" => :build
