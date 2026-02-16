@@ -5,10 +5,10 @@ class Bagoup < Formula
   sha256 "30107e5e9d8c3e67ac21fc7219a7cb4b95f20f96da35074fe718994b565ba177"
   license "AGPL-3.0-or-later"
 
-  # bottle do
-  #   root_url "https://github.com/tagatac/bagoup/releases/download/v2.5.0"
-  #   sha256 cellar: :any_skip_relocation, arm64_sequoia: "b8a08217b4682a94a3acbe409b2d4fa7c81694b758ad99c7a882262b584cebc4"
-  # end
+  bottle do
+    root_url "https://github.com/tagatac/bagoup/releases/download/v2.6.0"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe: "afdee685e4e46e141740e4d67e059a158a5f461601c41d6906f781bd5129bd5a"
+  end
 
   depends_on "go" => :build
   depends_on "make" => :build
